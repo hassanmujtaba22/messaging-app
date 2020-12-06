@@ -22,7 +22,7 @@ function Signup() {
     }
 
     return (
-        <div class="signup">
+        <div className="signup">
             <Card>
                 <h3>Sign Up</h3>
                 <form onSubmit={registerUser}>
@@ -58,7 +58,7 @@ function Signup() {
                         onChange={(e) => setPassword(e.target.value)}
                     />
 
-                    <div>
+                    <div className="btnsubmit">
                         <button type="submit">Submit</button>
                     </div>
 

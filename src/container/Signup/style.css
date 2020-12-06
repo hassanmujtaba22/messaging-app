@@ -1,5 +1,5 @@
-.signup{
-    width: 450px;
+.signup, .login{
+    width: 600px;
     position: relative;
     margin: 50px auto;
 }
